@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Modern Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: left;
+        }
+        nav {
+            background-color: #333;
+            display: flex;
+            justify-content: space-around;
+            padding: 30px;
+            float: right;
+            white-space: 5px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+        .logo {
+            max-width: 100px;
+            margin: 0 auto;
+            padding: 10px;
+        }
+        .banner {
+            background-color: #333;
+            color: white;
+            padding: 150px;
+            text-align: center;
+        }
+        .explore {
+          color: black;
+          text-decoration: none;
+        }
+        .content {
+          display: flex;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        .content2 {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        .feature {
+            background-color: #f2f2f2;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 10px;
+            padding: 20px;
+            width: 30%;
+        }
+        .feature2 {
+            background-color: #f2f2f2;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 10px;
+            padding: 20px;
+            width: 30%;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            /* width: 80%; */
+            /* margin: 0 auto; */
+            display: flex;
+            justify-content: space-around;
+            background-color: #333;
+            color: white;
+            padding: 150px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 28px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 16px;
+            color: #666;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 20px;
+        }
+
+        .contact-form input[type="text"],
+        .contact-form input[type="email"],
+        .contact-form textarea {
+            width: 60%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+
+        .contact-form button[type="submit"] {
+            width: 10%;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            text-align: center;
+            align-content: center;
+        }
+
+        .contact-form button[type="submit"]:hover {
+            background-color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://bit.ly/41fqz8E" alt="Logo" height="50px" width="30px">
+    </header>
+    <nav>
+        <a href="#">Features</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact</a>
+    </nav>
+    <div class="banner">
+      <h1 style='color: white;'>Welcome to Our Modern Website</h1>
+        <h3>Discover the latest features and services we offer</h3>
+        <div class="explore">
+          <a href="#">Explore</a>
+        </div>
+    </div>
+    <div class="content">
+        <div class="feature">
+            <h3>Feature 1</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="feature">
+            <h3>Feature 2</h3>
+            <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+    </div>
+    <div class="content2">
+      <center><div class="feature2">
+        <h3>Feature 3</h3>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+    </div>
+  </center>
+    </div>
+    <div class="container">
+      <center><h1 style="color: white;">About Us</h1>
+        <p style="color: white;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque suscipit metus eu enim venenatis, sit amet interdum orci luctus.</p>
+      </center>
+    </div>
+      
+      <div>
+        <center>
+          <h1>Contact Us</h1>
+          <p>Fill the given below form to contact us, we will reach out</p>
+        </center>
+      <form class="contact-form" action="/submit" method="post">
+        <p>Name</p>
+          <input type="text" name="name" placeholder="Your name" required>
+          <p>Email</p>
+          <input type="email" name="email" placeholder="Your email" required>
+          <p>Message</p>
+          <textarea name="message" placeholder="Your message" required></textarea>
+          <button type="submit">Send Message</button>
+      </form>
+  </div>
+    <div class="footer">
+        <p>&copy; 2024 Our Noman Hassan's Website. All rights reserved.</p>
+    </div>
+</body>
+</html>
